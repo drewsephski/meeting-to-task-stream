@@ -61,7 +61,20 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				/* Clarity brand colors */
+				clarity: {
+					primary: 'hsl(var(--clarity-primary))',
+					'primary-light': 'hsl(var(--clarity-primary-light))',
+					secondary: 'hsl(var(--clarity-secondary))',
+					accent: 'hsl(var(--clarity-accent))',
+					success: 'hsl(var(--clarity-success))'
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-secondary': 'var(--gradient-secondary)',
+				'gradient-hero': 'var(--gradient-hero)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
